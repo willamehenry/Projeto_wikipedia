@@ -13,36 +13,72 @@
 
     <div>
 
+
         <div class="logo">
+
+
             <img src="logo_wiki.png" width="200" />
-            <label style="padding: 21%; line-height: 5;">
-                <input style="width: 22%; " type="search" placeholder="Pesquisar na Wikipédia" autofocus
-                    autocomplete="" />
-                <button type="submit" tabindex="2" class="butao">Pesquisar</button>
+
+            <label class="label_pesquisa ">
+                <input class="buscar1" style="width: 22%; " type="text" placeholder="Pesquisar na Wikipédia"
+                    autofocus />
+
+                <button type="submit" tabindex="2" class="butao" id="but">Pesquisar</button>
             </label>
 
         </div>
     </div>
 
-    <div class="bar"></div>
+    <div class="bar">
+        <select class="select1" onchange="location.href=this.value">
+            <option value="menu" selected> Menu pricnpipal</option>
+            <option value="#aserie"> A serie </option>
+            <option value="#aorigens">A origem a criação</option>
+            <option value="#producao">Produção</option>
+            <option value="#distribuicao">Distribuição</option>
+            <option value="#brasil">Brasil</option>
 
+        </select>
+
+        <div class="hrf1">
+            <a href="http://127.0.0.1:5500/Projeto_wikipedia/criarconta.html" title="a criar a conta ">
+                Criar conta
+            </a>
+            &nbsp; &nbsp;
+            <a href="http://127.0.0.1:5500/Projeto_wikipedia/entrar.html" title="entrar já na conta que vc tem">
+                Entrar
+            </a>
+        </div>
+    </div>
+
+    <!-- Navegation-->
     <div class="content">
         <div class="sidebar">
-            <h2>Título</h2>
-            <ul>
-                <li><a href="#">Links</a></li>
+            <h4 style="color: #54595d;">Conteudo</h4>
+            <hr style=" margin-right: 7%">
+            <h5>Inicio</h5>
+
+            <ul class="nav1-esquerdo">
+
+                <li><a href="#aserie">A serie</a></li> <br>
+                <li><a href="#aorigens">A origem a criação</a></li><br>
+                <li><a href="#producao">Produção</a></li> <br>
+                <li><a href="#distribuicao">Distribuição</a></li> <br>
+                <li><a href="#brasil">Brasil</a></li>
             </ul>
         </div>
 
         <div class="main">
-            <h1>South Park</h1>
-            <p>South Park é uma sitcom americana criada por Trey Parker e Matt Stone para o canal Comedy Central.
+            <h1 id="south">South Park</h1>
+            <p>South Park é uma sitcom americana criada por Trey Parker e Matt Stone para o canal Comedy
+                Central.
                 Destinado ao público adulto, o programa tornou-se alvo de debates por suas críticas através de humor
                 negro, cruel, surreal e satírico que abrange uma série de assuntos. A narrativa padrão gira em torno de
                 quatro crianças — Stan Marsh, Kyle Broflovski, Eric Cartman, e Kenny McCormick — e suas aventuras
                 bizarras na cidade-título do programa.</p>
 
-            <p>Parker e Stone, que se conheceram na universidade, desenvolveram a série a partir de dois curtas de
+            <p>Parker e Stone, que se conheceram na universidade, desenvolveram a série a partir de dois
+                curtas de
                 animação criados por eles em 1992 e 1995. A segunda produção tornou-se um dos primeiros vídeos virais da
                 internet, o que acabou levando ao desenvolvimento do programa. South Park estreou em 13 de agosto de
                 1997 obtendo êxito instantâneo e alcançando posteriormente as maiores audiências da televisão paga nos
@@ -51,15 +87,16 @@
                 recortes, cada episódio é atualmente realizado em um software que reproduz o estilo característico do
                 programa.</p>
 
-            <p>A série está programada para ser exibida até a trigésima temporada, em 2027.[carece de fontes] South Park
+            <p>A série está programada para ser exibida até a trigésima temporada, em 2027.[carece de
+                fontes] South Park
                 recebeu inúmeros prêmios, incluindo cinco Primetime Emmy Awards, um Prêmio Peabody e numerosas inclusões
                 em listas de melhores programas de televisão. A popularidade do programa resultou em um filme: South
                 Park: Bigger, Longer and Uncut que foi lançado em junho de 1999, menos de dois anos após a estreia do
                 show, e tornou-se um sucesso comercial e de crítica. Em 2013, o TV Guide classificou a série como o
                 décimo melhor desenho animado de TV de todos os tempos.[2] South Park é a terceira série animada que
                 está há mais tempo em produção e exibição nos Estados Unidos, logo atrás de Os Simpsons e Arthur.</p>
-
-            <h3>A série</h3>
+            <a href="#but" style="margin-left: 90%; text-decoration:underline;color:red;"> voltar</a>
+            <h3 id="aserie">A série</h3>
             <hr>
             <h5> Ambientação e personagens </h5>
             <P>As cinco primeiras temporadas da série mostravam as façanhas de Stan Marsh, Kyle Broflovski, Eric Cartman
@@ -86,8 +123,8 @@
                 raramente é usada pelos criadores do programa. Durante os primeiros 59 episódios de South Park, os
                 garotos permaneceram na terceira série do ensino básico. No episódio "4th Grade" da quarta temporada
                 (2000), eles passaram para a quarta série, permanecendo nela desde então.</p>
-
-            <h3>Origens e criação</h3>
+            <a href="#but" style="margin-left: 90%; text-decoration:underline;color:red;"> voltar</a>
+            <h3 id="aorigens">Origens e criação</h3>
             <hr>
             <figure class="figura-imagem1">
                 <img class="img1" src="Trey_Parker_Matt_Stone_2007.jpg" alt="imagem de um homem" decoding="async"
@@ -116,7 +153,8 @@
                 com a MTV e o Comedy Central. Parker preferiu ver a infantil produzida pelo Comedy Central, temendo que
                 a MTV pudesse transformá-la em um programa infantil.[36] Doug Herzog, executivo do Comedy Central,
                 assistiu o curta e aprovou sua produção no formato de seriado.</p>
-            <h3>Produção</h3>
+            <a href="#but" style="margin-left: 90%; text-decoration:underline;color:red;"> voltar</a>
+            <h3 id="producao">Produção</h3>
             <hr>
             <p>Os scripts são, frequentemente, assinados pelos criadores da série, devido ao fato de que, a elaboração
                 de um episódio de South Park é menor do que a de outra série animada.[41] Às vezes, o processo dura
@@ -147,8 +185,8 @@
                 representados com a divisão da cabeça e design ainda mais minimalista,[48] enquanto alguns personagens
                 celebridades mantêm seu verdadeiro rosto, como no caso de Saddam Hussein. Em tais casos, os animadores
                 digitalizam a face do personagem, mas o corpo é caricaturado como os outros projetos.</p>
-
-            <h3>Distribuição</h3>
+            <a href="#but" style="margin-left: 90%; text-decoration:underline;color:red;"> voltar</a>
+            <h3 id="distribuicao">Distribuição</h3>
             <hr>
             <p>Internacionalmente, South Park é transmitido na Índia, Nova Zelândia e diversos países na Europa e
                 América Latina nos canais Comedy Central, MTV E VIVA todos propriedades da Viacom.[33] A partir de
@@ -168,7 +206,7 @@
                 localidades. No Canadá, episódios estão disponíveis no site do The Comedy Network,[89] e em setembro de
                 2009, uma versão britânica do site do South Park Studios foi lançada no Reino Unido para disponibilizar
                 os episódios</p>
-            <h4>Brasil</h4>
+            <h4 id="brasil">Brasil</h4>
             <p>No Brasil South Park foi exibido em diversos canais. O primeiro canal a exibir foi o Multishow,[91] meses
                 depois foi exibido na MTV Brasil[92] e posteriormente no extinto canal Locomotion, em 1998.[93] Em 2006
                 foi exibido no canal VH1 e mais tarde pelo canal Comedy Central Brasil, voltando a ser exibida pela MTV
@@ -177,6 +215,7 @@
 
             <p>A dublagem de South Park em português é feita em Miami, em estúdios especializados em dublagem, e com
                 brasileiros residentes nos Estados Unidos.</p>
+            <a href="#but" style="margin-left: 90%; text-decoration:underline;color:red; line-height: 6;"> voltar</a>
 
             <table class="tabela" cellpadding="15" cellspacing="0">
                 <thead>
@@ -234,14 +273,15 @@
         </div>
 
         <div class="anchors">
-            <h2>Neste Artigo</h2>
-            <ul>
-                <li><a href="#">Âncoras</a></li>
-            </ul>
+            
         </div>
     </div>
 
     <div class="footer">
+        <h7 style="line-height: 5; margin-left: 10%;">Esta página foi editada pela última vez às 20h13min de 5 de julho de 2023.</h7><br>
+        <p style="margin-left: 10%;">Este texto é disponibilizado nos termos da licença Atribuição-CompartilhaIgual 4.0 Internacional (CC BY-SA
+            4.0) da Creative Commons; <br>pode estar sujeito a condições adicionais. Para mais detalhes, consulte as
+            condições de utilização.</p>
 
     </div>
 </body>
