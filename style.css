@@ -40,6 +40,7 @@ ul {
     border-left: solid 1px #cdcdcd;
     padding-left: 15px;
 }
+
 a {
     color: blue;
     text-decoration: none;
@@ -60,7 +61,10 @@ figure {
     text-align: center;
     font-family: sans-serif;
 
+
 }
+
+
 
 thead {
     background-color: #eaecf0;
@@ -72,6 +76,11 @@ tbody {
 
     background-color: #f8f9fa;
 
+}
+
+.tabela tr :hover {
+
+    background-color: blue;
 }
 
 .figura-imagem1 {
@@ -125,35 +134,38 @@ tbody {
     text-align: left;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
+
 .hrf1 {
 
     margin-left: 90%;
 }
 
-.select1{
+.select1 {
 
-margin-left: 10%;
-font-size: larger;    
+    margin-left: 10%;
+    font-size: larger;
+
+}
+
+.label_pesquisa {
+
+    padding: 22%;
+    line-height: 4;
 
 }
 
-.label_pesquisa
-{
+.search {
 
-    padding: 22%; line-height: 4;
 
-}
-.search{
-
-    
     font-size: larger;
 }
-.butao
-{
-font-size: larger;
+
+.butao {
+    font-size: larger;
 
 }
-.pagina2body{
+
+.pagina2body {
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -172,4 +184,3 @@ font-size: larger;
     padding-left: 1rem;
     padding-right: 1rem;
 }
-    
